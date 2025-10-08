@@ -56,8 +56,6 @@ This project encourages eco-conscious decision-making while integrating real-tim
 | ------------------- | ------------------------------------------- |
 | **Frontend**        | HTML, CSS, JavaScript / ReactJS             |
 | **Backend**         | Flask / Node.js                             |
-| **Database**        | MongoDB / Firebase / MySQL                  |
-| **APIs**            | Google Maps API, OpenStreetMap, Weather API |
 | **Version Control** | Git & GitHub                                |
 
 ---
@@ -72,14 +70,7 @@ Frontend (React / HTML-CSS-JS)
  │
  ▼
 Backend (Flask / Node.js REST API)
- │
- ▼
-Database (MongoDB / MySQL)
- │
- ▼
-External APIs (Google Maps, Emission APIs)
 ```
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -95,7 +86,6 @@ cd green-commute
 
 ```bash
 cd backend
-pip install -r requirements.txt
 python app.py
 ```
 
