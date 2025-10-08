@@ -1,6 +1,4 @@
-<img width="1895" height="758" alt="image" src="https://github.com/user-attachments/assets/d60f7167-a6a3-49bb-81b1-9f59485fd6f7" />Sure! Here's a clean, professional **README.md** template for your **Green Commute** project — written in a GitHub-friendly format with badges, visuals, and clear sections.
-You can modify it depending on your tech stack (React, Flask, etc.).
-
+<img width="1895" height="758" alt="image" src="https://github.com/user-attachments/assets/d60f7167-a6a3-49bb-81b1-9f59485fd6f7" />
 ---
 
 # 🌱 Green Commute
@@ -155,6 +153,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ### 💚 “Go Green. Commute Smart. Save Earth.” 🌍
 
 ---
-
-Would you like me to customize this README for your **exact tech stack** (e.g., Flask + HTML frontend, or React + Flask)?
-That way I can adjust the setup commands, structure, and example sections accordingly.
