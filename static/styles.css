@@ -1,0 +1,281 @@
+/* General styles for all pages */
+body {
+    background-image: url('your-image-path.png'); /* Ensure correct path */
+    background-size: cover; /* Ensures the image covers the full viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    height: 100vh; /* Ensures the background covers the full screen */
+    margin: 0;
+    overflow: hidden; /* Prevents scrolling issues */
+    font-family: Arial, sans-serif; /* Consistent font for all pages */
+    color: white; /* Default text color */
+}
+
+/* Home page background */
+body.home {
+    background-image: url('images/home1.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+/* Login page background */
+body.login {
+    background-image: url('images/title.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+/* Register page background */
+body.register {
+    background-image: url('images/title.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+/* Travel History page background */
+body.travel-history {
+    background-image: url('images/home1.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+/* Points Redemption page background */
+body.redemption {
+    background-image: url('images/home1.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+
+
+/* Container styles */
+.container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    width: 40%; /* Adjust width as needed */
+    text-align: center; /* Center-align text */
+    position: absolute; /* Position the container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+}
+
+/* Navigation bar styles */
+nav {
+    background: #333; /* Dark background for the nav bar */
+    padding: 10px; /* Add some padding */
+    text-align: center; /* Center-align the links */
+}
+
+nav a {
+    color: white; /* White text for links */
+    margin: 0 15px; /* Add space between links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change link color on hover */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between table cells */
+    margin-top: 20px; /* Add space above the table */
+}
+
+table, th, td {
+    border: 1px solid white; /* White borders for table cells */
+    padding: 10px; /* Add padding inside cells */
+}
+
+/* Flash message styles */
+.alert {
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add space below the message */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.alert-success {
+    background-color: #d4edda; /* Light green background */
+    color: #155724; /* Dark green text */
+    border: 1px solid #c3e6cb; /* Light green border */
+}
+
+.alert-error {
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Light red border */
+}
+
+/* Login page specific styles */
+body.login .container {
+    color: white; /* White text for the container */
+}
+
+body.login h1 {
+    color: #ffcc00; /* Yellow color for the heading */
+}
+
+body.login label {
+    color: #00ffcc; /* Light cyan color for labels */
+}
+
+body.login input {
+    color: #000000; /* Black text color for input fields */
+    background-color: #ffffff; /* White background for input fields */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Add space below input fields */
+}
+
+body.login button {
+    color: #ffffff; /* White text color for the button */
+    background-color: #007bff; /* Blue background for the button */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+body.login button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+body.login a {
+    color: #ffcc00; /* Yellow color for links */
+}
+
+body.login a:hover {
+    color: #ff9900; /* Orange color for links on hover */
+}
+
+
+body.register .container {
+    color: white; /* White text for the container */
+}
+
+body.register  h1 {
+    color: #ffcc00; /* Yellow color for the heading */
+}
+
+body.register  label {
+    color: #00ffcc; /* Light cyan color for labels */
+}
+
+body.register  input {
+    color: #000000; /* Black text color for input fields */
+    background-color: #ffffff; /* White background for input fields */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light gray border */
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Add space below input fields */
+}
+
+body.register  button {
+    color: #ffffff; /* White text color for the button */
+    background-color: #007bff; /* Blue background for the button */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+body.register  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+body.register  a {
+    color: #ffcc00; /* Yellow color for links */
+}
+
+body.register  a:hover {
+    color: #ff9900; /* Orange color for links on hover */
+}
+
+
+body.rewards {
+    background-image: url('images/rewards.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rewards .container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 50px auto; /* Center the container */
+    text-align: center;
+}
+
+.rewards .total-points {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Yellow color for total points */
+}
+
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+}
+
+.reward-card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reward-card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.reward-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffffff; /* White text for reward name */
+}
+
+.reward-card p {
+    font-size: 1em;
+    color: #cccccc; /* Light gray text for points */
+}
+
+.reward-card button {
+    background-color: #007bff; /* Blue background for button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reward-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.reward-card.disabled {
+    opacity: 0.6; /* Reduce opacity for unavailable rewards */
+}
+
+.reward-card.disabled .unavailable {
+    color: #ff6666; /* Red text for unavailable rewards */
+    font-weight: bold;
+}
